@@ -31,6 +31,7 @@ header{background:#0c0807f7;border-bottom:1px solid #ce8f33}.logo{color:#fcd389;
 @media(max-width:900px){.hero-stage{grid-template-columns:1fr 1fr}.hero-seal{width:104px;height:104px;font-size:11px}.featured-grid{grid-template-columns:repeat(3,1fr)}.home-bottom{grid-template-columns:1fr}}
 @media(max-width:650px){.hero-stage{grid-template-columns:1fr;min-height:0;gap:14px}.hero-copy h1{font-size:clamp(49px,12vw,72px)}.hero-picture{height:240px}.hero-seal{width:102px;height:102px}.featured-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.featured-grid .card img{height:130px}.menu-top{align-items:flex-start}.link-action{font-size:12px}.club-promo{flex-direction:column;align-items:flex-start}.delivery-options{grid-template-columns:1fr 1fr}}
 @media(max-width:390px){.featured-grid{grid-template-columns:1fr}.featured-grid .card img{height:180px}.featured-grid .card p{min-height:0}}
+.hero-picture{background:#25150b!important}.hero-picture:before,.hero-glow,.light-string,.wood-plank,.gourmet-dog{display:none!important}.hero-picture .real-dog{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;filter:saturate(1.14) contrast(1.05)}.hero-seal{z-index:2}@media(max-width:650px){.hero-picture .real-dog{object-position:50% 50%}}
 </style></head><body>
 <header><div class="wrap head"><div class="logo">OH MY <b>DOG!</b><div style="font:11px system-ui;text-align:center;letter-spacing:.5px;color:#f8e3c0;text-shadow:none">Uma mordida. Uma surpresa.</div></div><div class="pill">📍 Campos do Jordão · SP</div></div></header>
 <section id="view-home">
@@ -46,8 +47,7 @@ header{background:#0c0807f7;border-bottom:1px solid #ce8f33}.logo{color:#fcd389;
 <div class="hero-picture" role="img" aria-label="Hot dog gourmet em ambiente natalino aconchegante">
 <div class="light-string"></div>
 <div class="hero-glow"></div>
-<div class="wood-plank"></div>
-<div class="gourmet-dog"><div class="bread-bottom"></div><div class="sausage"></div><div class="cheddar"></div><div class="toppings"></div><div class="bread-front"></div></div>
+<img class="real-dog" src="https://images.unsplash.com/photo-1599599810769-bcde5a160d32?auto=format&fit=crop&w=1400&q=85" alt="Hot dog gourmet de verdade, com molho e ingredientes" loading="eager" onerror="this.src=\'https://images.unsplash.com/photo-1619740455993-9e612b1af08a?auto=format&fit=crop&w=1400&q=85\'">
 <div class="hero-seal"><small>♛</small>SABORES<br>QUE<br>SURPREENDEM!</div>
 </div>
 </div>
