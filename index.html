@@ -32,10 +32,37 @@ header{background:#0c0807f7;border-bottom:1px solid #ce8f33}.logo{color:#fcd389;
 @media(max-width:650px){.hero-stage{grid-template-columns:1fr;min-height:0;gap:14px}.hero-copy h1{font-size:clamp(49px,12vw,72px)}.hero-picture{height:240px}.hero-seal{width:102px;height:102px}.featured-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.featured-grid .card img{height:130px}.menu-top{align-items:flex-start}.link-action{font-size:12px}.club-promo{flex-direction:column;align-items:flex-start}.delivery-options{grid-template-columns:1fr 1fr}}
 @media(max-width:390px){.featured-grid{grid-template-columns:1fr}.featured-grid .card img{height:180px}.featured-grid .card p{min-height:0}}
 .hero-picture{background:#25150b!important}.hero-picture:before,.hero-glow,.light-string,.wood-plank,.gourmet-dog{display:none!important}.hero-picture .real-dog{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;filter:saturate(1.14) contrast(1.05)}.hero-seal{z-index:2}@media(max-width:650px){.hero-picture .real-dog{object-position:50% 50%}}
+
+/* V6 · home premium inspirada no layout OH MY DOG aprovado */
+body{background:#100904}.new-hero.festive-home{min-height:0;background:radial-gradient(ellipse at 74% 25%,#7e3513 0,#2d1009 39%,#0d0806 85%);border:0}
+.festive-home:before{opacity:.65;background-image:radial-gradient(circle at center,#fca735 0 3px,transparent 13px),radial-gradient(circle at center,#ffd77f 0 2px,transparent 16px);background-size:115px 95px,163px 149px;filter:blur(2px)}
+.festive-home .hero-stage{min-height:400px;grid-template-columns:.62fr 1.38fr;padding:32px 0 13px;gap:10px}
+.festive-home .hero-copy h1{font-size:clamp(48px,4.4vw,75px);letter-spacing:-1px}
+.festive-home .hero-picture{height:350px;background:#25100a;border:0;border-radius:0;overflow:visible;box-shadow:none}
+.festive-home .hero-picture .real-dog{object-fit:cover;object-position:center;border-radius:23px;border:2px solid #b36c2b;filter:saturate(1.3) contrast(1.06);box-shadow:0 15px 60px #000b}
+.festive-home .hero-picture:after{content:'';position:absolute;inset:0;border-radius:23px;pointer-events:none;background:linear-gradient(90deg,#200b08c2 0%,transparent 32%,transparent 78%,#15090491 100%)}
+.festive-home .hero-seal{z-index:3;right:12px;top:10px;width:132px;height:132px;border-color:#ffe08e}
+.festival-sign{position:absolute;z-index:4;right:-4px;bottom:12px;max-width:155px;padding:13px;border-radius:10px;border:2px solid #a77336;background:#180e09db;color:#ffe1a0;font:700 13px/1.4 Georgia,serif;text-align:center;transform:rotate(-2deg)}
+.festival-sign span{display:block;font-size:23px}.new-hero .hero-under{display:none}
+.premium-home{position:relative;z-index:4;margin-top:-3px;background:#110c08df;border:1px solid #966329;border-radius:20px 20px 0 0;padding:8px 14px 18px;box-shadow:0 0 26px #000a}
+.premium-home .menu-top h2{font-size:25px;margin:4px 0;color:#ffe3aa}.premium-home .menu-top .sub{font-size:12px;margin:0}
+.premium-home .featured-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.premium-home .featured-grid .card{border-radius:13px;border-color:#895725;background:#180e09}
+.premium-home .featured-grid .card img{height:155px;object-fit:cover}
+.premium-home .featured-grid .card h3{font:900 18px Georgia,serif;color:#ffd074;margin:4px 0}
+.premium-home .featured-grid .card p{min-height:84px;line-height:1.3;font-size:12px;margin:5px 0}
+.premium-home .featured-grid .card .price{font-size:19px;color:#ffd56f}
+.premium-home .home-bottom{margin-top:10px;gap:10px}.premium-home .club-promo,.premium-home .delivery-box{border-radius:17px;background:linear-gradient(105deg,#351b0b,#0d0b0a);padding:16px;min-height:132px}
+.premium-home .club-title{font-size:27px}.premium-home .club-promo{gap:12px}.premium-home .club-promo .btn{flex-shrink:0}
+.premium-home .delivery-options button:first-child{border:2px solid #edbb54}
+.premium-home .about-home{margin-bottom:3px}
+@media(max-width:1000px){.festive-home .hero-stage{grid-template-columns:.8fr 1.2fr}.premium-home .featured-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.premium-home .featured-grid .card p{min-height:70px}}
+@media(max-width:680px){.festive-home .hero-stage{grid-template-columns:1fr;padding:24px 0 10px}.festive-home .hero-picture{height:245px}.festive-home .hero-copy h1{font-size:clamp(43px,11vw,68px)}.festive-home .hero-seal{width:105px;height:105px}.festival-sign{font-size:10px;max-width:110px;padding:6px}.premium-home{width:98%;padding:9px}.premium-home .featured-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.premium-home .featured-grid .card img{height:135px}.premium-home .featured-grid .card p{min-height:105px}.premium-home .club-promo{flex-direction:column;align-items:flex-start}.premium-home .menu-top h2{font-size:20px}}
+@media(max-width:370px){.premium-home .featured-grid{grid-template-columns:1fr}.premium-home .featured-grid .card p{min-height:0}}
 </style></head><body>
 <header><div class="wrap head"><div class="logo">OH MY <b>DOG!</b><div style="font:11px system-ui;text-align:center;letter-spacing:.5px;color:#f8e3c0;text-shadow:none">Uma mordida. Uma surpresa.</div></div><div class="pill">📍 Campos do Jordão · SP</div></div></header>
 <section id="view-home">
-<section class="new-hero">
+<section class="new-hero festive-home">
 <div class="wrap hero-stage">
 <div class="hero-copy">
 <div class="eyebrow">HOT DOG GOURMET · CAMPOS DO JORDÃO</div>
@@ -45,14 +72,14 @@ header{background:#0c0807f7;border-bottom:1px solid #ce8f33}.logo{color:#fcd389;
 <div class="hero-under">✦ Uma mordida. Uma surpresa. ✦</div>
 </div>
 <div class="hero-picture" role="img" aria-label="Hot dog gourmet em ambiente natalino aconchegante">
-<div class="light-string"></div>
+<div class="light-string"></div><div class="festival-sign">AQUI CADA MORDIDA É UMA SURPRESA <span>♛</span></div>
 <div class="hero-glow"></div>
 <img class="real-dog" src="https://images.unsplash.com/photo-1612392062631-94dd858cba88?auto=format&fit=crop&w=1400&q=85" alt="Hot dogs com pão e salsicha" loading="eager" onerror="this.style.display=\'none\'">
 <div class="hero-seal"><small>♛</small>SABORES<br>QUE<br>SURPREENDEM!</div>
 </div>
 </div>
 </section>
-<div class="wrap home-content">
+<div class="wrap home-content premium-home">
 <div class="menu-top"><div><h2>♛ NOSSOS HOT DOGS</h2><p class="sub">Cinco experiências para descobrir o seu preferido.</p></div><button class="link-action" onclick="navigate('menu')">Ver cardápio completo →</button></div>
 <div id="featured" class="products featured-grid"></div>
 <div class="home-bottom">
