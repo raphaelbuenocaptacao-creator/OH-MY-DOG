@@ -1,0 +1,18 @@
+{
+  "name": "OH MY DOG! — Hot Dogs Gourmet",
+  "short_name": "OH MY DOG!",
+  "description": "Uma mordida. Uma surpresa.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#11100e",
+  "theme_color": "#11100e",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
